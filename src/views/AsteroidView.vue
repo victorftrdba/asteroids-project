@@ -15,6 +15,9 @@
         <small>Limpar filtros</small>
       </v-btn>
     </v-col>
+    <v-col cols="12" class="font-bold">
+      <h1 class="text-2xl">Asteroides próximos a terra</h1>
+    </v-col>
     <v-col v-if="loading" cols="12" class="flex justify-center items-center">
       <v-progress-circular
         indeterminate
